@@ -1,6 +1,11 @@
+from common.util import preprocess
+
+
 def main():
-    print("Hello from deep-learning2!")
+    text = "You say goodbye and I say hello."
+    return preprocess(text)
 
 
 if __name__ == "__main__":
-    main()
+    print("deep-learning2 main start")
+    print(main())
